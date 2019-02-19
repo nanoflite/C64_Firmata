@@ -26,6 +26,7 @@ void serial_enable(void);
 void serial_disable(void);
 
 unsigned char serial_get(char *b);
+#define serial_put(b) ser_put(b) 
 void serial_writeln(char *line);
 void serial_write(char *line);
 void serial_write_int(int i);

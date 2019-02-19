@@ -1,4 +1,4 @@
-SOURCES = main.c serial+.c petascii.c
+SOURCES = main.c serial+.c petascii.c firmata.c
 ASOURCES = 
 CC65_TARGET = c64
 NAME = firmata
