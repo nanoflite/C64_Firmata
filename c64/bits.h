@@ -3,8 +3,8 @@
 
 #define _BV(bit)   (1 << (bit))
 
-#define outb(addr, val)  (*((char*)addr)) = (val)
-#define inb(addr)        (*((char*)addr))
+#define outb(addr, val)  (*((unsigned char*)addr)) = (val)
+#define inb(addr)        (*((unsigned char*)addr))
 
 #define bit_is_set(sfr, bit)   (inb(sfr) & _BV(bit))
  
