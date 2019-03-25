@@ -2,3 +2,4 @@
 *.d64
 *.lbl
 *.map
+/c64/.DS_Store
