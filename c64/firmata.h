@@ -80,6 +80,9 @@ void firmata_pin_write_analog(unsigned char pin, unsigned int value);
 // firmata_read_analog()
 unsigned int firmata_pin_read_analog(unsigned char pin);
 
+void firmata_servo_config(unsigned char pin, unsigned int minPulse, unsigned int maxPulse );
+void firmata_pin_write_servo(unsigned char pin, unsigned int value);
+int map(int x, int in_min, int in_max, int out_min, int out_max);
 // TODO
 // - register a callback when input changes for analog and digital
 // - simpler function names
