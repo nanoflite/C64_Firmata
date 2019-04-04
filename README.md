@@ -47,7 +47,7 @@ Power up the Arduino using a USB power plug or a power adapter.
 
 ## Disk image
 
-![Download firmata.d64](https://github.com/nanoflite/C64_Firmata/releases/download/1.0/firmata.d64)
+[Download firmata.d64](https://github.com/nanoflite/C64_Firmata/releases/download/1.0/firmata.d64)
 
 ## Demo on a real C64
 
